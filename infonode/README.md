@@ -16,3 +16,11 @@ the open source community.
 * InfoNode Docking Windows - Java Swing based docking windows framework.
 * InfoNode Tabbed Panel - Java Swing based tabbed panel component.
 * InfoNode Look and Feel - Java Swing look and feel based on the Metal look and feel.
+
+installing to local maven
+
+    mvn install:install-file -Dfile=idw-gpl.jar \
+      -DgroupId=infonode.net \
+      -DartifactId=docking-windows \
+      -Dversion=1.6.1 \
+      -Dpackaging=jar
